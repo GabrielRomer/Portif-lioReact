@@ -3,8 +3,8 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-block: 20px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.115);
-  background-color: white;
+  box-shadow: 0 0 500px 0 rgb(188, 0, 213);
+  background-color: yellow
 }
 
 h1 {

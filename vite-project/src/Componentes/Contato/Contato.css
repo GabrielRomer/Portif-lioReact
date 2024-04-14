@@ -4,21 +4,18 @@
   align-items: flex-end;
   justify-content: center;
   text-align: center;
-  height: 90vh;
+  height: 110vh;
   gap: 30px;
-  
 }
 #contato h3 {
-  font-size: 4rem;
-  color: rgb(188, 0, 213)
+  font-size: 3rem;
+  color: yellow;
 }
 #contato p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   align-items: center;
-  color: #fff
-  
-  
+  color: white;
 }
 #contato div {
   width: 100%;
@@ -36,30 +33,30 @@ label {
   display: block;
   align-items: flex-start;
   margin-bottom: 5px;
-  font-size: 1rem; /* Tamanho da fonte */
-  color: #fff /* Cor do texto */
+  font-size: 2.5rem; /* Tamanho da fonte */
+  color: yellow; /* Cor do texto */
 }
 input,
 textarea {
   width: 100%;
   min-width: 50%;
-  padding: 8px;
-  margin-bottom: 10px;
+  padding: 12px;
+  margin-bottom: 20px;
 }
 
 form button {
-  background-color: rgb(188, 0, 213);
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
+  background-color: yellow;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 50px;
   cursor: pointer;
 }
 
 form button:hover {
-  background-color: #007bff;
+  background-color: rgb(188, 0, 213);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1090px) {
   #contato h2 {
     font-size: 2.5rem;
   }
