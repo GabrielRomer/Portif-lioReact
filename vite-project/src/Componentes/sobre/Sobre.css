@@ -50,7 +50,7 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1024px) {
   #SobreMim {
     flex-direction: column;
     align-items: start;

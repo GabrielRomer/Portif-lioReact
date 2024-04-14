@@ -59,7 +59,7 @@ form button:hover {
   background-color: #007bff;
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1024px) {
   #contato h2 {
     font-size: 2.5rem;
   }
