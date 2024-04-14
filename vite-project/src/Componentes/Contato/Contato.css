@@ -1,0 +1,72 @@
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  gap: 30px;
+  
+}
+#contato h3 {
+  font-size: 4rem;
+  color: rgb(188, 0, 213)
+}
+#contato p {
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+  color: #fff
+  
+  
+}
+#contato div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 50%;
+  max-width: 1200px;
+}
+label {
+  display: block;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  font-size: 1rem; /* Tamanho da fonte */
+  color: #fff /* Cor do texto */
+}
+input,
+textarea {
+  width: 100%;
+  min-width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: rgb(188, 0, 213);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #007bff;
+}
+
+@media screen and (max-width: 1090px) {
+  #contato h2 {
+    font-size: 2.5rem;
+  }
+  #contato p {
+    font-size: 1.2rem;
+  }
+  form {
+    width: 80%;
+  }
+}
