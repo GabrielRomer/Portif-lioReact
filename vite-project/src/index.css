@@ -7,9 +7,9 @@
 body {
   background-color: rgb(232, 232, 232);
   background-image: url("./img/fundo3.gif"), url("./img/fundo2.gif"),
-    url("./img/fundo.gif");
-  background-size: 100%, 100%, 100% auto;
-  background-repeat: no-repeat, no-repeat, repeat;
+    url("./img/fundo.gif"), url("./img/fundo.gif");
+  background-size: 100%, 100%, 100%, 100%;
+  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-position: top left, bottom left, left center;
 }
 
