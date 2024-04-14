@@ -26,10 +26,15 @@ nav ul {
   list-style: none;
   text-transform: uppercase;
 }
-
 @media screen and (max-width: 1024px) {
   header {
     flex-direction: column;
     gap: 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
   }
 }

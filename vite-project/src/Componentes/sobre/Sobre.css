@@ -19,11 +19,11 @@
 
 #resumo h2 {
   font-size: 4rem;
-  color: bisque;
+  color: purple
 }
 #resumo p {
   font-size: 1.5rem;
-  color: bisque;
+  color: purple
 }
 
 #meus-conhecimentos {
@@ -50,21 +50,30 @@
   font-size: 1.5rem;
 }
 
+
 @media screen and (max-width: 1024px) {
   #SobreMim {
-    flex-direction: column;
-    align-items: start;
+    padding: 20px; /* Reduz o padding */
+    gap: 20px; /* Reduz o gap */
   }
-  #SobreMim div:nth-child(1) h2 {
-    font-size: 2rem;
+  
+  #resumo, #meus-conhecimentos {
+    max-width: 80%; /* Reduz a largura máxima */
   }
-  #SobreMim div:nth-child(1) p {
-    font-size: 1.2rem;
+
+  #resumo h2 {
+    font-size: 3rem; /* Reduz o tamanho da fonte do título */
   }
+
+  #resumo p {
+    font-size: 1.2rem; /* Reduz o tamanho da fonte do parágrafo */
+  }
+
   #meusconhecimentos h2 {
-    font-size: 1.8rem;
+    font-size: 2.5rem; /* Reduz o tamanho da fonte do título */
   }
+
   #meusconhecimentos ul {
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Reduz o tamanho da fonte da lista */
   }
 }

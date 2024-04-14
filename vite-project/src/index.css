@@ -47,22 +47,26 @@ main section:nth-child(1) button {
 main section:nth-child(1) button:hover {
   background-color: rgb(188, 0, 213);
 }
+
 section p:nth-child(1) {
   font-size: 2.5rem;
 }
+
 section p:nth-child(2) {
   font-size: 4rem;
 }
+
 section p:nth-child(2) {
   color: rgb(188, 0, 213);
 }
+
 #imagemDev {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 150px; /* Defina o tamanho desejado */
-  margin: 0; /* Ajuste conforme necessário */
-  z-index: 999; /* Certifique-se de que a imagem esteja acima de outros elementos */
+  width: 150px;
+  margin: 0;
+  z-index: 999;
 }
 
 @media screen and (max-width: 1024px) {
@@ -76,14 +80,19 @@ section p:nth-child(2) {
     font-size: 3rem;
   }
 }
+
 @media screen and (max-width: 805px) {
   main {
     flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
-  #rede-sociais {
-    margin-block: 10px;
+  
+  #redes-sociais {
+    margin: 10px 0;
   }
-  main-section:nth-child(1) button {
+
+  main section:nth-child(1) button {
     font-size: 20px;
     padding: 10px 26px;
   }
